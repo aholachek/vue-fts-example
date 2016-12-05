@@ -2,15 +2,15 @@
 
   <nav class="navbar navbar-light bg-faded">
   <ul class="nav navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item">
-      <router-link to="/list" class="nav-link">List Demo</router-link>
-    </li>
-    <li class="nav-item">
-      <router-link to="/event" class="nav-link">Event Listener Demo</router-link>
-    </li>
+    <router-link tag="li" to="/" class="nav-item">
+      <a class="nav-link" href="/">Home</a>
+    </router-link>
+    <router-link tag="li" to="/list" class="nav-item">
+      <a class="nav-link" href="/list">List Demo</a>
+    </router-link>
+    <router-link tag="li" to="/event" class="nav-item">
+      <a class="nav-link" href="/event">Event Listener Demo</a>
+    </router-link>
   </ul>
 </nav>
 
