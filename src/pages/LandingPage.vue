@@ -6,7 +6,7 @@
     if it might be a good way to handle component-based code delivery for Fresh Tilled Soil.
   </p>
   <p>
-    Features Demoed:
+    Features:
     <ul>
       <li>Routing</li>
       <li>Component composition through the iteration of child components</li>
